@@ -10,6 +10,15 @@ fn main() {
     //Reverse string
     let rev_str: String = str_rev(&input_str);
     println!("Reverse string = {rev_str}");
+
+    if input_str.trim() == rev_str.trim()
+    {
+        println!("Palidrome");
+    }
+    else
+    {
+        println!("Not Palidrome");
+    }
 }
 
 //REVERSE STRING FUNCTION
